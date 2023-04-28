@@ -36,7 +36,7 @@ int main() {
 	cout << endl;
 
 	(*p1).Print();	// (*p1).Print() 
-	(*p2).Print();	// p2.operator()->()->Print
+	(*p2).Print();	// p2.operator()*().Print
 
 	delete p1;
 	// p2의 소멸자에서 Point 동적 객체 자동으로 메모리에서 제거

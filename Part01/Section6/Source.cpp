@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct FuncObject {
+struct FuncObject { // 함수 객체 : 함수 호출 연산자 정의
 public:
 	void operator() (int arg) const {
 		cout << "정수 : " << arg << endl;
@@ -20,7 +20,7 @@ void Print1(int arg) {
 }
 
 int main() {
-	void (*Print2)(int) = Print1;
+	void (*Print2)(int) = Print1; // 함수 포인터
 	FuncObject Print3;
 
 	Print1(10);	// 함수 를 사용한 정수 출력
