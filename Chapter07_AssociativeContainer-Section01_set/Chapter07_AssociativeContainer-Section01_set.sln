@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex7-8_set_SortCriterion_Val
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex7-9_set_lowerbound_upperbound", "Ex7-9_set_lowerbound_upperbound\Ex7-9_set_lowerbound_upperbound.vcxproj", "{9589812E-E1C3-419F-BC69-616E89E503B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex7-10_set_equalrange", "Ex7-10_set_equalrange\Ex7-10_set_equalrange.vcxproj", "{1F127C3A-A522-4617-8037-D8C9176F8416}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{9589812E-E1C3-419F-BC69-616E89E503B9}.Release|x64.Build.0 = Release|x64
 		{9589812E-E1C3-419F-BC69-616E89E503B9}.Release|x86.ActiveCfg = Release|Win32
 		{9589812E-E1C3-419F-BC69-616E89E503B9}.Release|x86.Build.0 = Release|Win32
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Debug|x64.ActiveCfg = Debug|x64
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Debug|x64.Build.0 = Debug|x64
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Debug|x86.Build.0 = Debug|Win32
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Release|x64.ActiveCfg = Release|x64
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Release|x64.Build.0 = Release|x64
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Release|x86.ActiveCfg = Release|Win32
+		{1F127C3A-A522-4617-8037-D8C9176F8416}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
