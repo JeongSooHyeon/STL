@@ -13,9 +13,10 @@ class Ptr_fun_class :public unary_function<AType, RType> {
 	RType(*pf)(AType);	 // 함수 포인터 멤버 변수
 public:
 	Ptr_fun_class(RType(*_pf)(AType)) :pf(_pf) {}
-	RType operator()(AType n) const {
-		return pf(n);
-	}
+	//RType operator()(AType n) const {
+	//	cout << "함수 객체" << endl;
+	//	return pf(n);
+	//}
 };
 
 // 일반 함수를 함수 객체로 변환하는 ptr_fun() 함수
